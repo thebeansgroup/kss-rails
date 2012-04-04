@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['me@garrettbjerkhoel.com']
   gem.description   = %q{Rails 3 engine to provide a living styleguide from Kyle Neath's KSS.}
   gem.summary       = %q{Rails 3 engine to provide a living styleguide from Kyle Neath's KSS.}
-  gem.homepage      = 'https://github.com/dewski/kss-rails'
+  gem.homepage      = 'https://github.com/thebeansgroup/kss-rails'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
