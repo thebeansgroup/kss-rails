@@ -40,7 +40,7 @@ h1.styleguide {
   color: #000; }
 
 .styleguide-example {
-  margin: 15px 0;
+  margin: 15px 0 100px;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid #ddd;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
@@ -103,6 +103,13 @@ h1.styleguide {
       color: #222; }
   .styleguide-description li, .styleguide-description dd {
     margin-left:5%; }
+.styleguide-example + h4, .sectionHead + h4 {
+    margin: 4em 0 1.5em;
+    color: #BBB;
+    text-transform: uppercase;
+    }
+.sectionHead + h4 {
+  margin-top: 0.5em;}
 /* @end */
 
 //= require application
