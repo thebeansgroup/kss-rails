@@ -9,7 +9,7 @@
 #   => a.pseudo-class-hover{ color:blue; }
 class KssStateGenerator
   constructor: ->
-    pseudos = /(\:hover|\:disabled|\:active|\:visited)/g
+    pseudos = /(\:hover|\:disabled|\:active|\:visited|\:focus)/g
 
     try
       for stylesheet in document.styleSheets
